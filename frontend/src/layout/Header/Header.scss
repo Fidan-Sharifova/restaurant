@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+width: 100%;
+height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20%;
+top: 0;
+background-color: transparent;
+position: absolute;
+z-index: 1;
+color: white;
+border-bottom: 0.1px solid gray;
+}
+
+
+.navbarLinks {
+    ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+   
+
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+  }
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
